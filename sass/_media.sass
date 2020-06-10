@@ -1,0 +1,249 @@
+media (max-width: 1200px) 
+	.promo 
+	&__header 
+		font-size: 55px
+	&__subheader 
+		font-size: 33px
+
+media (max-width: 991px) 
+	.submenu 
+        &__logo-text 
+            font-size: 11px
+        &__phone-number 
+            font-size: 20px
+    .promo 
+        &__header 
+            font-size: 41px
+            line-height: 40px
+        &__subheader 
+            font-size: 25px
+            line-height: 25px
+    .menu 
+        &__link 
+            font-size: 11px
+    .title 
+        font-size: 37px
+    .work 
+        &__items 
+            margin: 0 auto
+            flex-direction: column
+        &__icon 
+            margin-top: 32px
+            margin-bottom: 26px
+    .footer 
+        &__wrapper 
+            flex-direction: column
+        &__nav 
+            order: -1
+        &__links 
+            width: 480px
+    .social 
+        margin-left: 0
+        margin-bottom: 20px
+        justify-content: center
+    .apps 
+        display: flex
+        justify-content: center
+        margin-right: 0
+        margin-bottom: 20px
+        width: 100%
+
+
+
+media (max-width: 768px) 
+	.menu 
+        flex-direction: column
+        justify-content: center
+        position: fixed
+        background-color: rgba(33, 33, 33, 0.9)
+        z-index: 1
+        top: 0
+        right: -100%
+        width: 50%
+        height: 100%
+        transition: ease 0.25s all
+	&__burger 
+		display: block
+		z-index: 3
+	&__link 
+		display: block
+		font-size: 17px
+		line-height: 50px
+	&__items 
+		flex-grow: 0
+		border: none
+		&:first-child 
+			padding: 0
+			flex-grow: 0
+			text-align: center
+		&:last-child 
+			padding: 0
+			flex-grow: 0
+			text-align: center
+    #menu__checkbox 
+        display: inline-block
+        opacity: 0
+        &:checked ~ .menu 
+            right: 0
+            &__burger>span:nth-child(1) 
+                transform: rotate(45deg)
+                margin-top: 5px
+                transition: ease 0.25s all
+            &__burger>span:nth-child(2) 
+                transform: rotate(-45deg)
+                margin-top: -7px
+                transition: ease 0.25s all
+            &__burger>span:nth-child(3) 
+                opacity: 0
+    .submenu 
+        &__phone-text 
+            margin-top: 19px
+            font-size: 10px
+        &__btn 
+            width: 100%
+            height: 43px
+        &__img 
+            margin-top: 23px
+        &__logo-text 
+            margin-top: 3px
+            font-size: 9px
+        &__phone-text 
+            margin-top: 24px
+            font-size: 9px
+            line-height: 9px
+        &__phone-number 
+            margin-top: 9px
+            font-size: 14px
+            line-height: 15px
+        &__btn 
+            margin-top: 23px
+            height: 35px
+            font-size: 12px
+    .promo 
+        &__header 
+            font-size: 45px
+            line-height: 38px
+        &__subheader 
+            font-size: 25px
+            line-height: 23px
+        &__header 
+            font-size: 35px
+            line-height: 30px
+        &__subheader 
+            font-size: 19px
+            line-height: 17px
+        &__descr 
+            font-size: 15px
+        &__btn 
+            width: 230px
+            height: 50px
+    .title 
+        font-size: 30px
+    .subtitle 
+        font-size: 15px
+        line-height: 13px
+    .title 
+        font-size: 27px
+    .work .row 
+        margin-top: 23px
+    .condition__profit 
+        margin-bottom: 25px
+    .footer__links 
+        width: auto
+    .list__different 
+        font-size: 9px
+
+
+
+
+
+media (max-width: 576px) 
+    .submenu 
+        min-height: 60px
+        &__logo-text 
+            display: none
+        &__phone 
+            display: none
+        &__btn 
+            height: 22px
+            font-size: 10px
+    .title 
+        font-size: 15px
+        margin-top: 15px
+        line-height: 15px
+    .subtitle 
+        font-size: 14px
+    .promo 
+        padding: 113px 0 35px 0
+        min-height: 400px
+        &__header 
+            font-size: 30px
+            line-height: 35px
+        &__subheader 
+            font-style: 20px
+            line-height: 23px
+        &__descr 
+            display: none
+        &__btn 
+            width: 210px
+    .work 
+        padding: 22px 0 50px 0
+        .title 
+            line-height: 15px
+        .row 
+            margin-top: 4px
+        &__icon 
+            margin: 22px 0 26px 0
+    .mobile 
+        padding: 22px 0 43px 0
+        .title 
+            line-height: 14px
+        .row 
+            margin-top: 30px
+        &__item 
+            width: 290px
+            height: 254px
+            margin-bottom: 30px
+            padding-top: 80px
+            &-6 
+                margin-bottom: 0
+        &__title 
+            font-size: 18px
+            line-height: 31px
+    .opportunities 
+        height: 390px
+        padding: 25px 0 31px 0
+        .title, .subtitle 
+            display: none
+        &__text 
+            margin-top: 247px
+            font-size: 17px
+            line-height: 24px
+            color: @white
+    .condition 
+        padding: 25px 0 25px 0
+        .title 
+            margin-top: 15px
+            margin-bottom: 22px
+            line-height: 15px
+        &__title 
+            font-size: 16px
+        &__item 
+            margin-left: 30px
+            font-size: 14px
+        &__profit 
+            font-size: 14px
+    .red 
+        margin-top: 13px
+    .cities 
+        min-height: 360px
+        padding: 25px 0 32px 0
+        .title 
+            margin-top: 15px
+            line-height: 15px
+        .subtitle 
+            margin-top: 10px
+        &__link 
+            margin-top: 218px
+            font-size: 15px
+            line-height: 15px

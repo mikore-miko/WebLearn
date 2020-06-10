@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSTART</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    
+
+    <header>
+        <nav class="menu">
+            <div class="container">
+                <input type="checkbox" id="burger__checkbox" class="burger__checkbox"/>
+                <ul class="menu__list">
+                    <li class="menu__items"><a href="" class="menu__link">Главная</a></li>
+                    <li class="menu__items"><a href="" class="menu__link">Преимущества</a></li>
+                    <li class="menu__items"><a href="" class="menu__link">Возможности</a></li>
+                    <li class="menu__items"><a href="" class="menu__link">Требования</a></li>
+                    <li class="menu__items"><a href="" class="menu__link">Контакты</a></li>
+                    <li class="menu__items"><a href="" class="menu__link">Оставить заявку</a></li>
+                </ul>
+                <label for="burger__checkbox" class="menu__burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+        </nav>
+        
+        <div class="submenu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-4 offset-sm-1 col-md-4 offset-md-1">
+                        <a href="#" class="submenu__logo-link">
+                            <div class="submenu__logo-text">Сайт по обучению Web-программированию</div>
+                        </a>
+                    </div>
+                    <div class="submenu__phone col-sm-3 offset-sm-1 col-md-3 offset-md-1 col-xl-2 offset-xl-2">
+                        <div class="submenu__phone-text">Позвонить нам</div>
+                        <a class="submenu__phone-number" href="tel:84957970988">8 495 797 09 88</a>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3">
+                        <a class="submenu__phone-mobile" href="tel:84957970988">8 495 797 09 88</a>
+                        <button href="#" class="submenu__btn">Заказать звонок</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+
+    <section class="promo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <h1 class="promo__header">Онлайн школа - WebStart!</h1>
+                    <h2 class="promo__subheader">Веб-разработка. Быстрый старт. Удобная поддержка.</h2>
+                    <div class="promo__descr">
+                        Учитесь в собственном темпе.
+                        Когда угодно, где угодно. Начните учиться сегодня!
+                        <br><br>
+                        Обучение основам веб программирования для начинающих - HTML, CSS, Bootstrap, PHP, MySQL, JavaScript, jQuery, Linux, GIT, Codeigniter</div>
+                        <button class="promo__btn btn-primary" data-toggle="modal" data-target="#myModal">Смотреть урок</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <iframe width="100%" height="450px" 
+                    src="https://www.youtube.com/embed/hPz_t04EapY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work">
+        <div class="container">
+            <h2 class="title">А вот 8 книг по WEB-программированию для твоего развития!</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-6 col-xl-6">
+                    <div class="work__items">
+                        <div class="work__icon">
+                            <a href="https://www.labirint.ru/books/502699/" class="work__circle">
+                                <img class="work__img" src="icons/download.png" alt="">
+                            </a>
+                        </div>
+                        <p class="work__text">
+                            <span class="work__title">
+                                Разработка современных динамических Web-сайтов. Владимир Дронов
+                            </span>
+                            <br>
+                            Книга посвящена разработке динамических Web-сайтов с применением HTML5, CSS 3, PHP и MySQL.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6">
+                    <div class="work__items">
+                        <div class="work__icon">
+                            <a href="https://www.labirint.ru/books/473786/" class="work__circle">
+                                <img class="work__img" src="icons/download.png" alt="">
+                            </a>
+                        </div>
+                        <p class="work__text">
+                            <span class="work__title">
+                                Изучаем программирование на JavaScript. Эрик Фримен, Робсон Элизабет
+                            </span>
+                            <br>
+                            Пришло время познакомиться с самым "горячим" языком программирования - JavaScript!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6">
+                    <div class="work__items">
+                        <div class="work__icon">
+                            <a href="https://www.labirint.ru/books/674027/" class="work__circle">
+                                <img class="work__img" src="icons/download.png" alt="">
+                            </a>
+                        </div>
+                        <p class="work__text">
+                            <span class="work__title">
+                                Создаем динамические веб-сайты с помощью PHP, MySQL, JavaScript, CSS и HTML5 Робин Никсон
+                            </span>
+                            <br>
+                            Научитесь создавать интерактивные сайты, активно работающие с данными, воплощая в них мощные комбинации свободно распространяемых технологий и веб-стандартов.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6">
+                    <div class="work__items">
+                        <div class="work__icon">
+                            <a href="https://www.labirint.ru/books/528885/" class="work__circle">
+                                <img class="work__img" src="icons/download.png" alt="">
+                            </a>
+                        </div>
+                        <p class="work__text">
+                            <span class="work__title">
+                                Новая большая книга CSS Дэвид Макфарланд
+                            </span>
+                            <br>
+                            Технология CSS3 позволяет создавать профессионально оформленные сайты, но тонкости этого языка могут оказаться довольно сложными даже для опытных веб-разработчиков.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6">
+                    <div class="work__items">
+                        <div class="work__icon">
+                            <a href="https://web-notes.info/articles/javascript_juqery_3ed_2015.html" class="work__circle">
+                                <img class="work__img" src="icons/download.png" alt="">
+                            </a>
+                        </div>
+                        <p class="work__text">
+                            <span class="work__title">
+                                JavaScript и jQuery. Исчерпывающее руководство Дэвид Сойер Макфарланд
+                            </span>
+                            <br>
+                           Перед вами - наиболее полное и великолепно структурированное руководство по JavaScript
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6">
+                    <div class="work__items">
+                        <div class="work__icon">
+                            <a href="https://www.labirint.ru/books/433491/" class="work__circle">
+                                <img class="work__img" src="icons/download.png" alt="">
+                            </a>
+                        </div>
+                        <p class="work__text">
+                            <span class="work__title">
+                                PHP и MySQL. Исчерпывающее руководство Б. Маклафлин
+                            </span>
+                            <br>
+                           Эта книга переведет вас на новый уровень веб-разработки — создание динамических веб-сайтов на основе PHP и MySQL.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6">
+                    <div class="work__items">
+                        <div class="work__icon">
+                            <a href="https://www.labirint.ru/books/512935/" class="work__circle">
+                                <img class="work__img" src="icons/download.png" alt="">
+                            </a>
+                        </div>
+                        <p class="work__text">
+                            <span class="work__title">
+                                Дональд Кнут "Искусство программирования"
+                            </span>
+                            <br>
+                            Искусство программирования - это всеобъемлющая монография, написанная Дональдом Кнутом, которая охватывает многие виды алгоритмов программирования и их анализ.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6">
+                    <div class="work__items">
+                        <div class="work__icon">
+                            <a href="https://www.labirint.ru/books/272529/" class="work__circle">
+                                <img class="work__img" src="icons/download.png" alt="">
+                            </a>
+                        </div>
+                        <p class="work__text">
+                            <span class="work__title">
+                                Стив Макконнелл "Совершенный код"
+                            </span>
+                            <br>
+                            Книга по программированию Стива Макконнелла - это то, что советуют прочитать хоть раз в жизни каждому программисту. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mobile">
+        <div class="container">
+           
+            <h2 class="title">Чему Вы научитесь</h2>
+            <h3 class="subtitle"></h3>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                    <div class="mobile__item mobile__item-1">
+                        <div class="mobile__title">Основам веб-разработки на PHP
+                            </div>
+                        <div class="mobile__plus">
+                            <img src="icons/mobile__plus.png" alt="" class="mobile__img">
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                    <div class="mobile__item mobile__item-2">
+                        <div class="mobile__title">Устанавливать сервер Apache и настраивать доступ к локальному сайту</div>
+                        <div class="mobile__plus">
+                            <img src="icons/mobile__plus.png" alt="" class="mobile__img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                    <div class="mobile__item mobile__item-3">
+                        <div class="mobile__title">Создавать простые сайты интернет-магазинов с помощью шаблонов и без них</div>
+                        <div class="mobile__plus">
+                            <img src="icons/mobile__plus.png" alt="" class="mobile__img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                    <div class="mobile__item mobile__item-4">
+                        <div class="mobile__title">Оформлять сайты с помощью CSS</div>
+                        <div class="mobile__plus">
+                            <img src="icons/mobile__plus.png" alt="" class="mobile__img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                    <div class="mobile__item mobile__item-5">
+                        <div class="mobile__title">Работать с массивами и циклами</div>
+                        <div class="mobile__plus">
+                            <img src="icons/mobile__plus.png" alt="" class="mobile__img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                    <div class="mobile__item mobile__item-6">
+                        <div class="mobile__title">Размещать сайты в интернете</div>
+                        <div class="mobile__plus">
+                            <img src="icons/mobile__plus.png" alt="" class="mobile__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="opportunities">
+        <div class="container">
+            
+            <h2 class="title">Постоянная поддержка</h2>
+            <h3 class="subtitle">Обучение стало еще легче! Так как мы создали для Вас ПЕРВУЮ карманную шпаргалку! </h3>
+            <p class="opportunities__text">
+               Эта шпаргалка является постоянной помощью вам, на вашем пути обучения. Мы понимаем, что иногда материал невозсожно запомнить за один урок, а придя домой, ты забываешь сесть за компьютер и вскоре совсем об этом забываешь. <br>
+                Теперь у Вас будет возможность найти информацию в любое время, в любом месте.
+            </p>
+            <a href="#" class="opportunities__telegram">
+                <img src="icons/telegram.svg" alt="telegram">
+            </a>
+        </div>
+    </section>
+
+    <section class="condition">
+        <div class="container">
+            <div id="glo_0" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/n9kx5Vk0jgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_1" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/YLUyVtHTGqw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_2" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/_NWqjokwZFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_3" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/YVsB4EDFDbI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_4" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/ZICE4lDlH5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_5" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/kc0ScJvmtd8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_6" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/heh1N3qltF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_7" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/8KIh_eyy2Lo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_8" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/XP23qdQEDmA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_9" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/53UnXy-V-WQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_10" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/LDc57VMLMWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_11" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/LV1w4G0ArY0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_12" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/O0G0MooRRPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_13" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/4Tuvl2O_rlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <div id="glo_practice" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/Zdx44cb8kkA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+            <h2 class="title">Программы курса</h2>
+            <div class="row blue justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="condition__title">Курс от Glo Academy</div>
+                    <ul class="condition__list">
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_0">Урок 0. Установка необходимых программ</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_1">Урок 1. Полный цикл создания сайтов</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_2">Урок 2. Работа с графикой для разработчика</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_3">Урок 3. Настройка рабочего пространства</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_4">Урок 4. Знакомство с основами HTML</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_5">Урок 5. Знакомство с основами CSS</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_6">Урок 6. Позиционирование в CSS</a></li>
+                    </ul>
+                    <div class="condition__profit">Продолжение обучения после выполнения практического задания</div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="condition__title">     </div>
+                    <ul class="condition__list">
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_7">Урок 7. Верстка первого макета</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_8">Урок 8. Что такое Bootstrap</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_9">Урок 9. Верстка на bootstrap</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_10">Урок 10. Препроцессор LESS</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_11">Урок 11. Сниппеты</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_12">Урок 12. GitHub Pages</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_13">Урок 13. Адаптивная верстка</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target="#glo_practice">Практика. Часть 1. Верстка шапки сайта</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row red justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="condition__title">HTML5 уроки для начинающих</div>
+                    <ul class="condition__list">
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#1 - Введение в HTML</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#2 - Отображение файла в интернете</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#3 - Какие языки учить? Как создать веб сайт?</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#4 - Как создать комментарии</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#5 - Теги для работы с текстом</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#6 - Теги для текста (продолжение + выводы)</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#7 - Как создать списки в HTML</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#8 - Что такое атрибуты в HTML?</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#9 - Ссылки в языке HTML</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#10 - Отображение изображений в HTML</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="condition__title"></div>
+                    <ul class="condition__list">
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#11 - Создание таблиц в HTML</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#12 - Подключение файлов (тег head)</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#13 - Использование тегов div и span</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#14 - Поля ввода в HTML5</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#15 - Использование textarea и тега button</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#16 - Селектор выбора HTML. Теги select и option</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#16 - Селектор выбора HTML. Теги select и option</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#16 - Селектор выбора HTML. Теги select и option</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#16 - Селектор выбора HTML. Теги select и option</a></li>
+                        <li class="condition__item"><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">#16 - Селектор выбора HTML. Теги select и option</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="cities">
+        <div class="container">
+           
+            <h2 class="title">По всему миру</h2>
+            <h3 class="subtitle">Мы в вашем городе и по всему миру</h3>
+            <a class='cities__link' href="#">Посмотреть все города</a>
+        </div>
+    </section>
+
+    
+    
+    <footer>
+        <div class="footer__wrapper">            
+            <div class="footer__social">
+                <div class="social">
+                    <div class="social__icons">
+                        <img src="/src/icons/facebook.png" alt="">
+                    </div>
+                    <div class="social__icons">
+                        <img src="/src/icons/twitter.png" alt="">
+                    </div>
+                    <div class="social__icons">
+                        <img src="/src/icons/LinkedIn.png" alt="">
+                    </div>
+                    <div class="social__icons">
+                        <img src="/src/icons/instagram.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer__nav">
+                <div class="footer__links">
+                    <div class="footer__line"></div>
+                    <ul class="footer__list list__nav">
+                        <li class="footer__item">На главную</li>
+                        <li class="footer__item">Города</li>
+                        <li class="footer__item">Для водителей</li>
+                    </ul>
+                    <ul class="footer__list list__different">
+                        <li class="footer__item">Центр поддержки</li>
+                        <li class="footer__item">Вакансии</li>
+                        <li class="footer__item">Разработчики</li>
+                        <li class="footer__item">Блог</li>
+                        <li class="footer__item">О нас</li>
+                    </ul>
+                    <a href="#" class="footer__lang">Русский</a>
+                </div>
+            </div>
+            <div class="footer__apps">
+                <div class="apps">
+                    <a href="#" class="apps__link">
+                        <img src="/src/img/apps__app_store.png" alt="">
+                    </a>
+                    <a href="#" class="apps__link">
+                        <img src="/src/img/apps__google_play.png" alt="">
+                    </a>
+                    <a href="#" class="apps__link">
+                        <img src="/src/img/apps__windows_store.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
